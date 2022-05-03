@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\all_in_one_freq_calc_var.vhd" Line 166: <arg fmt="%s" index="1">ff_si</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\all_in_one_freq_calc_var.vhd" Line 144: Assignment to <arg fmt="%s" index="1">of1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 74: Assignment to <arg fmt="%s" index="1">dce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="314" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 51: Choice with meta-value <arg fmt="%s" index="1">&quot;ZZZZ&quot;</arg> is ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="314" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 52: Choice with meta-value <arg fmt="%s" index="1">&quot;XXXX&quot;</arg> is ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="314" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 53: Choice with meta-value <arg fmt="%s" index="1">&quot;UUUU&quot;</arg> is ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="314" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 56: Choice with meta-value <arg fmt="%s" index="1">&quot;----&quot;</arg> is ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="314" delta="old" >"\\mac\tj208\Home\EENG6730\ISE\top_circuit\Display.vhd" Line 57: Choice with meta-value <arg fmt="%s" index="1">&quot;WWWW&quot;</arg> is ignored for synthesis
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x1[3]_PWR_12_o_wide_mux_127_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x100[3]_PWR_12_o_wide_mux_129_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x10[3]_PWR_12_o_wide_mux_128_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x1000[3]_PWR_12_o_wide_mux_130_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x10000[3]_PWR_12_o_wide_mux_135_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_x100000[3]_PWR_12_o_wide_mux_140_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">frequency_calculator</arg>: <arg fmt="%d" index="2">4</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_freq/count50k_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Top_level</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_fase/toggle&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_freq/ff_si</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Top_level</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_fase/phi_0&gt; </arg>
+</msg>
+
+</messages>

@@ -1,0 +1,7 @@
+vhdl work "../top_circuit/ffsr.vhd"
+vhdl work "../top_circuit/SYNC.vhd"
+vhdl work "../top_circuit/phase_shifter.vhd"
+vhdl work "../top_circuit/div2.vhd"
+vhdl work "../top_circuit/Display.vhd"
+vhdl work "../top_circuit/all_in_one_freq_calc_var.vhd"
+vhdl work "../top_circuit/top_level.vhd"

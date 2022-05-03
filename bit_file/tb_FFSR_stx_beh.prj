@@ -1,0 +1,2 @@
+vhdl isim_temp "../../top_circuit/ffsr.vhd"
+vhdl isim_temp "../../testbench/FFSR_tb.vhd"

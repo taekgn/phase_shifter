@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=U:\Home\EENG6730\ISE\bit_file\Top_level.ncd
+OUTFILE=U:\Home\EENG6730\ISE\bit_file\Top_level.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=U:\Home\EENG6730\ISE\bit_file
+LICENSE=WebPack
+USER_INFO=__0_0_0

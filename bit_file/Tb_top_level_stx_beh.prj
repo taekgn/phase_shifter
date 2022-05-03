@@ -1,0 +1,8 @@
+vhdl isim_temp "../../top_circuit/ffsr.vhd"
+vhdl isim_temp "../../top_circuit/SYNC.vhd"
+vhdl isim_temp "../../top_circuit/phase_shifter.vhd"
+vhdl isim_temp "../../top_circuit/div2.vhd"
+vhdl isim_temp "../../top_circuit/Display.vhd"
+vhdl isim_temp "../../top_circuit/all_in_one_freq_calc_var.vhd"
+vhdl isim_temp "../../top_circuit/top_level.vhd"
+vhdl isim_temp "../../testbench/top_level_tb.vhd"

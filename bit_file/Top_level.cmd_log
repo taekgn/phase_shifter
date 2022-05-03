@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "W:/Home/EENG6730/ISE/bit_file/Top_level.xst" -ofn "W:/Home/EENG6730/ISE/bit_file/Top_level.syr" 
+xst -intstyle ise -ifn "W:/Home/EENG6730/ISE/bit_file/Top_level.xst" -ofn "W:/Home/EENG6730/ISE/bit_file/Top_level.syr" 
+xst -intstyle ise -ifn "Z:/EENG6730/ISE/bit_file/Top_level.xst" -ofn "Z:/EENG6730/ISE/bit_file/Top_level.syr" 
+xst -intstyle ise -ifn "Z:/EENG6730/ISE/bit_file/Top_level.xst" -ofn "Z:/EENG6730/ISE/bit_file/Top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z:/EENG6730/top_circuit/Nexys3.ucf -p xc6slx16-csg324-3 Top_level.ngc Top_level.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_level_map.ncd Top_level.ngd Top_level.pcf 
+par -w -intstyle ise -ol high -mt off Top_level_map.ncd Top_level.ncd Top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_level.twx Top_level.ncd -o Top_level.twr Top_level.pcf 
+bitgen -intstyle ise -f Top_level.ut Top_level.ncd 
+xst -intstyle ise -ifn "Z:/EENG6730/ISE/bit_file/Top_level.xst" -ofn "Z:/EENG6730/ISE/bit_file/Top_level.syr" 
+xst -intstyle ise -ifn "Z:/EENG6730/ISE/bit_file/Top_level.xst" -ofn "Z:/EENG6730/ISE/bit_file/Top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z:/EENG6730/top_circuit/Nexys3.ucf -p xc6slx16-csg324-3 Top_level.ngc Top_level.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_level_map.ncd Top_level.ngd Top_level.pcf 
+par -w -intstyle ise -ol high -mt off Top_level_map.ncd Top_level.ncd Top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_level.twx Top_level.ncd -o Top_level.twr Top_level.pcf 
+bitgen -intstyle ise -f Top_level.ut Top_level.ncd 
+xst -intstyle ise -ifn "U:/Home/EENG6730/ISE/bit_file/Top_level.xst" -ofn "U:/Home/EENG6730/ISE/bit_file/Top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc U:/Home/EENG6730/ISE/top_circuit/Nexys3.ucf -p xc6slx16-csg324-3 Top_level.ngc Top_level.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_level_map.ncd Top_level.ngd Top_level.pcf 
+par -w -intstyle ise -ol high -mt off Top_level_map.ncd Top_level.ncd Top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_level.twx Top_level.ncd -o Top_level.twr Top_level.pcf 
+xst -intstyle ise -ifn "U:/Home/EENG6730/ISE/bit_file/Top_level.xst" -ofn "U:/Home/EENG6730/ISE/bit_file/Top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc U:/Home/EENG6730/ISE/top_circuit/Nexys3.ucf -p xc6slx16-csg324-3 Top_level.ngc Top_level.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_level_map.ncd Top_level.ngd Top_level.pcf 
+par -w -intstyle ise -ol high -mt off Top_level_map.ncd Top_level.ncd Top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_level.twx Top_level.ncd -o Top_level.twr Top_level.pcf 
+bitgen -intstyle ise -f Top_level.ut Top_level.ncd 

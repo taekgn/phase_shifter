@@ -1,0 +1,2 @@
+vhdl isim_temp "../../top_circuit/Display.vhd"
+vhdl isim_temp "../../testbench/Display_TB.vhd"

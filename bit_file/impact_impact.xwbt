@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=U:\Home\EENG6730\ISE\bit_file\impact.xsl
+OUTFILE=U:\Home\EENG6730\ISE\bit_file\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=U:\Home\EENG6730\ISE\bit_file
+LICENSE=iMPACT
+USER_INFO=iMPACT

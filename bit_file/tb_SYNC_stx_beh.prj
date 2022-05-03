@@ -1,0 +1,3 @@
+vhdl isim_temp "../../top_circuit/ffsr.vhd"
+vhdl isim_temp "../../top_circuit/SYNC.vhd"
+vhdl isim_temp "../../testbench/SYNC_tb.vhd"

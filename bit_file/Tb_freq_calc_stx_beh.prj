@@ -1,0 +1,2 @@
+vhdl isim_temp "../../top_circuit/all_in_one_freq_calc_var.vhd"
+vhdl isim_temp "../../testbench/freq_calc_tb.vhd"
